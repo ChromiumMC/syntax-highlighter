@@ -1,0 +1,25 @@
+{
+  "name": "chromiummc",
+  "displayName": "ChromiumMC",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cmc",
+      "aliases": ["ChromiumMC", "cmc"],
+      "extensions": [".cmc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cmc",
+      "scopeName": "source.cmc",
+      "path": "./syntaxes/cmc.tmLanguage.json"
+    }]
+  }
+}
